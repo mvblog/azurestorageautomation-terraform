@@ -28,10 +28,10 @@ sa = {
 
 # list of subnets tha can access storage account
 subnetidmap  = {  
-  "storage1" = ["/subscriptions/xxxx/resourcegroup/subnets/subnets/sn1", "/subscriptions/xxxx/resourcegroup/subnets/subnets/sn2"]
-  "storage2" = ["/subscrptions/xxxx/resourcegroup/subnets/subnets/subnet1"]
-  "storage3" = ["/subscrptions/xxxx/resourcegroup/subnets/subnets/sn1", "/subscrptions/xxxx/resourcegroup/subnets/subnets/sn2", "/subscrptions/xxxx/resourcegroup/subnets/subnets/subnet1"]
-  "storage4" = ["/subscrptions/xxxx/resourcegroup/subnets/subnets/subnet3"]
+  "storage1" = ["/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroup/subnets/subnets/sn1", "/subscriptions/xxxx/resourcegroup/subnets/subnets/sn2"]
+  "storage2" = ["/subscrptions/00000000-0000-0000-0000-000000000000/resourcegroup/subnets/subnets/subnet1"]
+  "storage3" = ["/subscrptions/00000000-0000-0000-0000-000000000000/resourcegroup/subnets/subnets/sn1", "/subscrptions/xxxx/resourcegroup/subnets/subnets/sn2", "/subscrptions/xxxx/resourcegroup/subnets/subnets/subnet1"]
+  "storage4" = ["/subscrptions/00000000-0000-0000-0000-000000000000/resourcegroup/subnets/subnets/subnet3"]
 } 
 
 #Define groups and users that need access on each filesystem
